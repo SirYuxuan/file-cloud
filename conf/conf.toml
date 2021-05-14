@@ -1,0 +1,12 @@
+[Upload]
+# 暂时仅支持 AliOSS,FTP
+Type = "AliOSS"
+DbName = "database.db"
+# 必须以 \\ or / 结尾
+BasePath = "E:\\Docs\\"
+
+[AliOSS]
+endpoint = "oss-cn-beijing.aliyuncs.com"
+accessKeyID = "gw6yt4VLqGV69vSG"
+accessKeySecret = "UucgIypNp8hzgn1BDYBaaJdU0NbSCI"
+bucketName = "yuxuan-file-cloud"
